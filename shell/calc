@@ -1,0 +1,4 @@
+#!/bin/bash
+scale='scale=8;'
+math=$scale$@
+echo $math|bc
